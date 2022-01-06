@@ -1,0 +1,63 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto Mono', monospace, sans-serif;
+    background: url(welcome.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* the width and heith is to make sure that our page cover 100% of the screen */
+
+
+h1 {
+    font-size: 3rem;
+    color: rgb(204, 206, 226, 0.9);
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.btn:hover {
+    border-width: 2px;
+}
+
+.btn-primary {
+    background-color: rgb(96, 140, 241) ;
+    border-color:rgb(96, 140, 241) ;
+}
+
+hr {
+    /* border-color: rgb(96, 140, 241) !important ; */
+    /* border-width: 5px !important; */
+    border-radius: 10px !important;
+    max-width: 70px !important;
+    /* border: 5px !important; */
+    opacity: 1 !important;
+    color: rgb(96, 140, 241) !important;
+    /* background-color: rgb(96, 140, 241)!important; */
+    margin: 1rem auto !important;
+    /* this auto here is needed to make the hr line center  */
+    height: 3px!important;
+    /* all the new bootstrap <HR> styles need to be override with !important to apply your ownstyle */
+}
+
+/* ask instructor why own css does not cascade the boostrap */
+
+/* .container {
+    height: 100%;
+} (This is equal to h-100 in bootstrap class to make the container spread all the webpage vertically*/
+
+.buffer {
+    height: 5rem;
+}
