@@ -57,3 +57,7 @@ img {
     border-color: rgba(244, 245, 245, 0.9);
     background-color: rgba(244, 245, 245, 0.7);
 }
+
+header {
+    margin: 1rem;
+}

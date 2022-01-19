@@ -42,3 +42,7 @@ body {
     border-color: rgba(75, 76, 77, 0.8);
     font-family: 'Cormorant Garamond', serif;
 }
+
+.container {
+    margin: 1em;
+}
