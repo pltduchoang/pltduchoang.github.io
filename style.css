@@ -23,6 +23,8 @@ h1 {
 }
 
 body {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     align-content: center;
     background-color: rgba(113, 142, 164, 0) !important;
     height:100%;
@@ -43,6 +45,3 @@ body {
     font-family: 'Cormorant Garamond', serif;
 }
 
-.container {
-    margin: 1rem;
-}
