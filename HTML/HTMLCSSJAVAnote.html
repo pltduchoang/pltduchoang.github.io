@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMLCSSJavascript note</title>
+    <link rel="stylesheet" href="/HTMLCSSJSnote/CSS/style.css">
+</head>
+<body class="body">
+  <header>
+    <table cellspacing="10">
+      <tr>
+        <td><img id="profilepic" src="/HTMLCSSJSnote/Image/profilepic.jpeg" width="150"  alt=""></td>
+        <td><h2>&nbsp;&nbsp;&nbsp;&nbsp;Duc Hoang</h2>
+          <ul>
+            <li>Mobile: 403-404-9113</li>
+            <li>Email: plt.duchoang@gmail.com</li>
+            <li>Calgary, AB</li>
+          </ul></td>
+        </tr>
+    </table>
+    <h2>History</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Dates</th><th>Works</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2010-2020</td><td>&nbsp;&nbsp;Commercial Airlines Pilot</td>
+        </tr>
+        <tr>
+          <td>2022-2022</td><td>&nbsp;&nbsp;Google Professional IT Support</td>
+        </tr>
+        <tr>
+          <td>2022-2024</td><td>&nbsp;&nbsp;Software Development at SAIT</td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Skills</h2>
+    <table>
+      <tr>
+        <td>
+          <table>
+            <tr>
+              <td>Web Developmen</td><td>&#11088;&#11088;&#11088;</td>
+            </tr>
+            <tr>
+              <td>Javascript</td><td>&#11088;&#11088;</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table>
+            <tr>
+              <td>Gaming</td><td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            </tr>
+            <tr>
+              <td>Phtography</td><td>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <a href="/HTMLCSSJSnote/HTML/contact.html">Contact me</a>
+    <a href="/HTMLCSSJSnote/Index.html">Go back</a>
+    <a href=""></a>
+    <hr size="3" noshade>
+      <h1>Road to become a fullstack web developer</h1>
+  </header>
+  <hr size="3" noshade>
+  <main>
+    <article>
+      <h1>General Note</h1>
+        <h2>What to do when you get stucked</h2>
+          <ol>
+            <li>Refer to the internet such as: Stackoverflow</li>
+            <li>Compare the code with the complete code from the instructor</li>
+            <li>Use the Q&A
+            <ul>
+              <li>Remember to ask in relevant lession</li>
+              <li>Remember to include the time stamp</li>
+              <li>When asking, follow 4 steps
+              <ol>
+                <li>What did you expect</li>
+                <li>What actually happened</li>
+                <li>Screenshot of your code</li>
+                <li>Screenshot of the debug console (Ctrl + Shift + S)</li>
+              </ol></li>
+            </ul></li>
+          </ol>
+    </article>
+    <hr size="3" noshade>
+    <article>
+      <h1>Table of contents</h1>
+        <ol>
+          <li><a href="#htmlnote">HTML Note</a>
+            <ul>
+              <li><a href="#refweb">Reference website</a></li>
+              <li><a href="#general">General</a></li>
+              <li><a href="#elemenets">Elements</a>
+                <ul>
+                  <li><a href="#heading">Heading tags</a></li>
+                  <li><a href="#comment">Comment tag</a></li>
+                  <li><a href="#title">Title tag</a></li>
+                  <li><a href="#pagaraph">HTML Paragraph (p) tag</a></li>
+                  <li><a href="#linebreak">Single Line Break (br) tag</a></li>
+                  <li><a href="#horizontalrule">Horizontal rule (hr) tag</a></li>
+                  <li><a href="#specialcharacter">Special chraters</a></li>
+                  <li><a href="#abbreviation">Abbreviation tag (abbr)</a></li>
+                  <li><a href="#textspacingissue">Text spacing issue</a></li>
+                  <li><a href="#formattingtext">Formatting text using HTML</a></li>
+                  <li><a href="#emandstrong">Emphasize Tags and Bold Tags</a></li>
+                  <li><a href="#list">List Tags</a></li>
+                  <li><a href="#image">Image tag</a></li>
+                  <li><a href="#anchor">Anchor Tag</a></li>
+                  <li><a href="#table">Tables tags</a></li>
+                  <li><a href="#forms">Form Tags</a></li>
+                  <li><a href="#nestingwebsite">Nesting website with IFRAME tag</a></li>
+                  <li><a href="#addingyoutube">Adding Youtube videos</a></li>
+                  <li><a href="#addingaudiovideo">Adding Audio and Video</a></li>
+                </ul></li>
+              <li><a href="#sectioningandstructural">Sectioning and structural elements</a>
+                <ul>
+                  <li><a href="#generals">Generals</a></li>
+                  <li><a href="#mainandarticle">MAIN and ARTICLE</a></li>
+                  <li><a href="#sectionelementlayout">Section elements and layout</a></li>
+                  <li><a href="#idandclass">ID and CLASS attribute</a></li>
+                  <li><a href="#divelement">DIV element</a></li>
+                  <li><a href="#mainelement">MAIN element</a></li>
+                  <li><a href="#sectionandarticle">SECTION and ARTICLE elements</a></li>
+                  <li><a href="#headerandfooter">HEADER and FOOTER elements</a></li>
+                  <li><a href="#aside">ASIDE element</a></li>
+                </ul></li>
+            </ul></li>
+            <li><a href="#cssnote">CSS NOTE</a></li>
+        </ol>
+    </article>
+    <hr size="3" noshade>
+    <article>
+      <h1 id="htmlnote">HTML Note</h1>
+        <section>
+          <h2 id="refweb">Reference website</h2>
+            <ul>
+              <li> <a href="https://www.w3schools.com/">W3Schools</a> </li>
+              <li> <a href="https://developer.mozilla.org/en-US/">Developer Mozilla</a> </li>
+              <li> <a href="https://devdocs.io/">Devdocs</a></li>
+            </ul>
+        </section>
+        <section>
+          <h2 id="general">General</h2>
+            <ul>
+              <li><a href="http://pressbooks.library.torontomu.ca/webdesign/front-matter/introduction/">HTML INFO</a></li>
+              <li>HTML stands for Hepertext Markup Language</li>
+              <li>HTML tags contain Elements and Attributes</li>
+              <li>There are Tags that require opening and closing and then there are self closing Tags where a closing must not exist</li>
+              <li>The Attributes is encoded inside the opening of a tag
+                <ul>
+                  <li><a href="https://pressbooks.library.torontomu.ca/webdesign/chapter/chapter-5-css-forms/">CSS INFO</a></li>
+                  <li><a href="https://pressbooks.library.torontomu.ca/webdesign/chapter/chapter-10-javascript/">JAVASCRIPT INFO</a></li>
+                  <li> <strong>Example:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;there is some space in front of this text </li>
+                </ul></li>
+              <li><strong>Block element</strong>,i.e. P tag, h tag, will take up the whole line of the</li>
+              <li><strong>Semantic tags</strong> is the new feature of HTML 5 wich increases the machine redability to make the website more accessible by search machine, or text readers, etc.</li>
+              <li><strong>Element</strong> refers to the tags and content, while tags is only the HTML syntax itselft</li>
+            </ul>
+        </section>
+        <section>
+          <h2 id="elemenets">Elements</h2>
+            <h3 id="heading">Heading tag</h3>
+              <ul>
+                <li>Heading tags or AKA H1 ... H6</li>
+                <li>Heading tags are block elemnents</li>
+              </ul>
+            <h3 id="comment">Comment tag</h3>
+              <ul>
+                <li>Use comment to cite any source</li>
+                <li>Will not appear in web page</li>
+                <li></li>
+              </ul>
+            <h3 id="title">Title tag</h3>
+            <ul>
+              <li>Short description of what the webpage contains.</li> 
+              <li>Displayed in tab or title bar of the web browser. </li>
+              <li>Also used for Google search results.</li>
+              <li>Also used for Google search results.</li>
+              <li>ALWAYS include the title element. </li>
+              <li>No more than 60 characters.</li>
+              <li>HTML tags are not to be included in the title. </li>
+            </ul>
+            <h3 id="pagaraph">HTML Paragraph (p) tag</h3>
+              <ul>
+                <li>Groups sentences and sections of text together</li>
+                <li>Block Display by default </li>
+              </ul>
+            <h3 id="linebreak">Single Line Break (br) tag</h3>
+              <ul>
+                <li>To create a line break</li>
+              </ul>
+            <h3 id="horizontalrule">Horizontal rule (hr) tag</h3>
+              <ul>
+                <li>(hr) tag creates a horiaontal line in HTML page</li>
+              </ul>
+            <h3 id="specialcharacter">Special chraters</h3>
+              <ul>
+                <li>Reserved characters in HTML</li>
+                <li>Typically, characters that arent available on a keyboard</li>
+                <li>Renders correctly no matter what character set or language the web browser is using. </li>
+                <li>See the Common HTML Entities from the Web Standards Curriculum. </li>
+                <li>Use the alphanumeric value or entity name whenever possible. </li>
+                <li>&copy;&lt;&gt;&amp;&nbsp;</li>
+              </ul>
+            <h3 id="abbreviation">Abbreviation tag (abbr)</h3>
+              <ul>
+                <li>The title attribute is used to show the spelled-out version when holding the mouse pointer over the acronym or abbreviation. </li>
+                <li><abbr title="World Wide Web">www</abbr></li>
+              </ul>
+            <h3 id="textspacingissue">Text spacing issue</h3>
+              <ul>
+                <li>can be mitigated by using pre formatted text tag (pre)</li>
+                <li>(pre) tag preserve the format of the content as you type</li>
+              </ul>
+            <h3 id="formattingtext">Formatting text using HTML</h3>
+              <ul>
+                <li>Formatting text using HTML is not recommended, it is recommended to use CSS for all styling</li>
+                <li>HTML tag for this purpose such as (b) for <b>Bold</b> (i) for <i>italic</i> <small>(small)</small> <mark>(mark)</mark> (sub) to lower <sub>letter</sub>  below line (sup) to raise <sup>letter</sup> above line</li>
+              </ul>
+            <h3 id="emandstrong">Emphasize Tags and Bold Tags</h3>
+              <ul>
+                <li>Empahsize tag including "em" and "i", they both give the text italic style, but "em" tag, on the other hand, emphasize the text. It is a good practice to always use "em" tag to emphasize text rather than just <em>styling</em> </li>
+                <li>"B" tag (bold) and "strong" tag share the same characteristic while they make text <strong>BOLD</strong> </li>
+              </ul>
+            <h3 id="list">List Tags</h3>
+              <ul>
+                <li>"UL" tag is used for Unordered List where the list items are listed with bullet point</li>
+                <li>"UL" tag Attributes:
+                  <ol>
+                    <li>compact</li>
+                    <li>type attributes: circle, square, disc</li>
+                  </ol></li>
+                <li>"OL" tag is used for Ordered list where the list items are listed with numberic or alphabet points</li>
+                <li>"OL" tag Attributes:
+                  <ol>
+                    <li>reversed: to number items reversed way</li>
+                    <li>start: to start counting at a specificed number</li>
+                    <li>type attribute: a - lowercase letter; A - uppercase; i - lowercase Roman; I - uppercase; 1 - numbers (defaults)</li>
+                  </ol></li>
+                <li>Definition list
+                  <ol>
+                    <li>Terms with definition</li>
+                    <li>Start with (dl) tags</li>
+                    <li>(dt) tag to include the term</li>
+                    <li>(dd) tag to include the definition</li>
+                    <li><strong><em>Example:</em></strong>
+                    <dl>
+                      <dt>Cars</dt>
+                        <dd>Vehicle that converts a source of energy such as gas or electricity to horizontal motion, typically utilizing the wheels system rotating on a surface</dd>
+                    </dl></li>
+                  </ol></li>
+              </ul>
+
+            <h3 id="image">Image tag</h3>
+              <ul>
+                <li>"IMG" tag is used to include image into HTML page</li>
+                <li>It is self closing tag and has "src" as the Attribute to link to the image file either local or online</li>
+                <li>Attribute "ALT" is to give a describetion if the image can not be loaded</li>
+              </ul>
+
+            <h3 id="anchor">Anchor Tag</h3>
+              <ul>
+                <li>"A" tag is used to include hyper link</li>
+                <li>Self-Reference link is a link in the page that references the page itself
+                  <ul>
+                    <li>href=index.html</li>
+                    <li>href=""</li>
+                    <li>href="?"</li>
+                  </ul></li>
+                <li>Attributes:
+                  <ol>
+                    <li>Attribute (target="_blank") will open the link in a new browser tab, usefull when redirect to an external website</li>
+                    <li>Attribute "HREF" includes the hyper link or a file name path</li>
+                    <li>The URL that the hyperlink points to. Links are not restricted to HTTP-based URLs — they can use any URL scheme supported by browsers:
+                      <ul>
+                        <li>Sections of a page with fragment URLs</li>
+                        <li>Pieces of media files with media fragments</li>
+                        <li>Pieces of media files with media fragments</li>
+                        <li>Telephone numbers with tel: URLs</li>
+                        <li>Email addresses with mailto: URLs</li>
+                        <li>While web browsers may not support other URL schemes, web sites can with registerProtocolHandler()</li>
+                      </ul></li>
+                    <li> <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"> Other attributes </a> can be refered to here </li>
+                    <li>href="mailto:abc@yahoo.com" can be used to create send email action
+                      <ul>
+                        <li>the mailto action be add function include subject such as href="mailto:abc@yahoo.com?subject=report issue</li>
+                      </ul></li>
+                  </ol></li>
+              </ul>
+
+            <h3 id="table">Tables tags</h3>
+              <ul>
+                <li>"table" element is used to create tables. "tr" (table row) is use to create row and "td" (table data) is used to create cells, "th" is for header row (Bold style).</li>
+              </ul>
+              <table cellspacing="10">
+                <tr>
+                  <td> Cell 1 </td><td> Cell 2 </td>
+                </tr>
+                <tr>
+                  <td> Cell 3 </td><td> Cell 4 </td>
+                </tr>
+              </table>
+              <ul>
+                <li>Inside "table" elements, there can is "thead" (table head) which includes "tr" and "th"</li>
+                <li>There is also "tbody"</li>
+                <li>There is also "tfoot"</li>
+                <li>Without "thead" or "tbody" or "tfoot", the Table will still recognize "th" tag as the header row, but isolation of elements to embed more code will not be easy</li>
+                <li>Attribute (colspan) and (rowspan) is used to merge cells</li>
+              </ul>
+            <h3 id="forms">Form Tags</h3>
+              <ul>
+                <li>To creat form with fields of input and corresponding label</li>
+                <li>The whole form section is wrapped inside (form) tags
+                  <ul>
+                    <li>The attribute (action) of the (form) tag can be used to define what will happen if user click submit, either URL link to another website or "mailto:" to open mail services to send the data or to assign a file to collect those datas</li>
+                    <li>form's attribute (enctype) is used to define encoding settings of the data input in the forms. i.e. (text/plain)</li>
+                    <li>attributes (get) and (post) is to defined how the data is collected</li>
+                  </ul></li>
+                <li>(Lable) tag is to create a label</li>
+                <li>(input) is to create an input fiel with (type) attributes
+                  <ul>
+                    <li>attribute (name) to give the name of the input field to label the collected data</li>
+                  </ul></li>
+                <li>Two Components of Using Forms 
+                  <ol>
+                    <li>The H T M L form, the web page user interface</li>
+                    <li>The server-side processing </li>
+                  </ol></li>
+                <li>(")label) tags with attribute (id) can be used to give semantic label to the input field with the same id</li>
+                <li>(type) attribute can be "text", "password", "checkbox", "submit", "file", "date", "radio", "range" etc.</li>
+                <li>(type) attribute "reset" is to reset the form</li>
+                <li>Common attributes:  
+                  <ul>
+                    <li>For (Submit) and (Reset) button
+                      <ul>
+                        <li>(type)= submit or reset</li>
+                        <li>(name) make easy to be accessed by scripting language</li>
+                        <li>(id) provides a unique identifier for the form element</li>
+                        <li>(value) of submit button change the name of the button</li>
+                      </ul></li>
+                    <li>For (input) tags
+                      <ul>
+                        <li>(value) assigns an initial value to the text box that is displayed by the browser, accepts info typed in the text box. This info can be accessed by scripting language</li>
+                        <li>(placeholder) brief information to assist users</li>
+                        <li>(disabled)</li>
+                        <li>(readonly) form control is for display, cannot be edited</li>
+                        <li>(maxlength) limit the number of charaters input</li>
+                        <li>(name) (id) help identify the value when using scripting language</li>
+                        <li>(size) the size of the text box on webpage</li>
+                        <li>(required) the field is required to be filled be for submision</li>
+                      </ul></li>
+                  </ul></li>
+                <li>(label) tag with attribute (id) is to link to any input field and give them semantic meaning label</li>
+                <li>(input) type <strong>checkbox</strong>
+                  <ul>
+                    <li>Allow users to select multiple options</li>
+                  </ul></li>
+                  <br>
+                  <form action="/action_page.php">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> I have a bike</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> I have a car</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> I have a boat</label><br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br>
+                  <li>(input) type <strong>radio</strong>
+                    <ul>
+                      <li>Allow users to select only one option when the radio choices are set to the same (name) attribute. </li>
+                    </ul></li>
+                    <br>
+                    <form>
+                      <input type="radio" id="html" name="fav_language" value="HTML">
+                      <label for="html">HTML</label><br>
+                      <input type="radio" id="css" name="fav_language" value="CSS">
+                      <label for="css">CSS</label><br>
+                      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                      <label for="javascript">JavaScript</label>
+                    </form> 
+                    <br>
+                <li>(select) list: create drop down list 
+                  <ul>
+                    <li>Wrapped by (select) tag</li>
+                    <li>Each option is created by (option) tag</li>
+                    <li>Attributes:
+                      <ul>
+                        <li>Name</li>
+                        <li>id</li>
+                        <li>value</li>
+                        <li>size</li>
+                        <li>mutiple: allow multiple choices by holding down shift key while clicking</li>
+                        <li>selected: pre-select the (option) tag that has this attribute</li>
+                      </ul></li>
+                  </ul></li>
+                  <br>
+                  <form action="/action_page.php">
+                    <label for="cars">Choose a car:</label>
+                    <select name="cars" id="cars">
+                      <option value="volvo">Volvo</option>
+                      <option value="saab">Saab</option>
+                      <option value="opel">Opel</option>
+                      <option value="audi">Audi</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+                  <br>
+                <li>(input) with type = image: Create submit button with an image
+                  <ul>
+                    <li>(alt) Attribute brief text description of the image</li>
+                  </ul></li>
+                <li>(input) with type = email or URL: to input content with email format or URL format</li>
+                <li>(input) with type = search: Create a search box for your website</li>
+                <li>(button) tags: A container tag
+                  <ul>
+                    <li>When clicked, its function depends on the value of the type of attribute </li>
+                    <li>Can contain a combination of text, images, and media</li>
+                    <li>Attribute: 
+                      <ul>
+                        <li>Type: submit, reset, button </li>
+                        <li>name</li>
+                        <li>id</li>
+                        <li>Value: given to a form element that is passed to the form handler</li>
+                      </ul></li>
+                  </ul></li>
+                <li>(datalist) tag
+                  <ul>
+                    <br>
+                  <form action="/action_page.php" method="get">
+                    <label for="browser">Choose your browser from the list:</label>
+                    <input list="browsers" name="browser" id="browser">
+                    <datalist id="browsers">
+                      <option value="Edge">
+                      <option value="Firefox">
+                      <option value="Chrome">
+                      <option value="Opera">
+                      <option value="Safari">
+                    </datalist>
+                    <input type="submit">
+                  </form>
+                    <br>
+                  </ul></li>
+                <li>(input) with type = slider
+                  <ul>
+                    <br>
+                  <input type="range" min="1" max="100" value="50">
+                    <br>
+                  </ul></li>
+                <li>(input) with type = number (Spinner control)
+                  <ul>
+                    <li>attributes:
+                      <ul>
+                        <li>min: minimum number value</li>
+                        <li>max: maximum number value</li>
+                      </ul></li>
+                      <br>
+                      <label for="tentacles">Number of tentacles (10-100):</label>
+                      <input type="number" id="tentacles" name="tentacles"
+                            min="10" max="100">
+                      <br>
+                  </ul></li>
+                  
+                <li>(input) with type = date (Calendar control)
+                  <ul>
+                    <br>
+                    <label for="start">Start date:</label>
+                    <input type="date" id="start" name="trip-start"
+                          value="2018-07-22"
+                          min="2018-01-01" max="2018-12-31">
+                    <br>
+                  </ul></li>
+                <li>(input) with type = color (Color picker)
+                  <br>
+                  <ul>
+                    <input type="color" id="head" name="head"
+                    value="#e66465">
+                    <label for="head">Head</label>
+                    <input type="color" id="body" name="body"
+                    value="#f6b73c">
+                    <label for="body">Body</label>
+                  </ul></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">Find out more about Forms tags here</a></li>
+              </ul>
+              <h4>Accessibility and Forms</h4>
+              <ul>
+                <li>
+                  <ol>
+                    <li>label element: has 2 formats
+                      <ul>
+                        <li>Stand alone</li>
+                        <li>Accompanied the input field by using attribute for (+id from input field)</li>
+                      </ul></li>
+                    <li>fieldset element
+                      <ul>
+                        <li>A container tag</li>
+                        <li>Creates a visual group of form elements on a web page </li>
+                        <li>Creates a text label within the fieldset with (legend) tag</li>
+                        <br>
+                            <form>
+                              <fieldset style="width: 50%;">
+                                <legend>Choose your favorite monster</legend>
+                            
+                                <input type="radio" id="kraken" name="monster" value="K">
+                                <label for="kraken">Kraken</label><br>
+                            
+                                <input type="radio" id="sasquatch" name="monster" value="S">
+                                <label for="sasquatch">Sasquatch</label><br>
+                            
+                                <input type="radio" id="mothman" name="monster" value="M" />
+                                <label for="mothman">Mothman</label>
+                              </fieldset>
+                            </form>
+                        <br>
+                      </ul></li>
+                    <li>tabindex
+                      <ul>
+                          <li>Attribute that can be used on form controls and anchor tags </li>
+                          <li>Modifies the default tab order</li>
+                          <li>Assign a numeric value 
+                            <ul>
+                              <li>A negative value (usually tabindex="-1") means that the element is not reachable via sequential keyboard navigation, but could be focused with JavaScript or visually by clicking with the mouse. It's mostly useful to create accessible widgets with JavaScript.</li>
+                              <li>tabindex="0" means that the element should be focusable in sequential keyboard navigation, after any positive tabindex values and its order is defined by the document's source order.</li>
+                              <li>A positive value means the element should be focusable in sequential keyboard navigation, with its order defined by the value of the number. That is, tabindex="4" is focused before tabindex="5" and tabindex="0", but after tabindex="3". If multiple elements share the same positive tabindex value, their order relative to each other follows their position in the document source. The maximum value for tabindex is 32767. If not specified, it takes the default value 0.
+                              <ul>
+                                <p>Click anywhere in this pane, then try tabbing through the elements.</p>
+                                <label>First in tab order:<input type="text"></label>
+                                <div tabindex="0">Tabbable due to tabindex.</div>
+                                <div>Not tabbable: no tabindex.</div>
+                                <label>Third in tab order:<input type="text"></label>
+                              </ul></li>
+                            </ul></li>
+                      </ul></li>
+                    <li>accesskey
+                      <ul>
+                        <li>Attribute that can be used on form controls and anchor tags </li>
+                        <li>Create a “hot-key” combination to place the focus on the component </li>
+                        <li>Assign a value of a keyboard letter </li>
+                        <li>On Windows use the C T R L and the “hot-key” to move the cursor</li>
+                      </ul></li>
+                </ol></li>
+              </ul>
+            
+            <h3 id="nestingwebsite">Nest another website using (iframe) tags</h3>
+              <ul>
+                <li>(iframe) is used to display a website inside your website</li>
+                <li>The text part of the tag will be displayed if the browser does not support (iframe)</li>
+                <li>Many website will not allow (iframe)</li>
+                <li>Adding Google Maps
+                  <ul>
+                    <li>Go to Google Maps website</li>
+                    <li>Search for the address in the search box</li>
+                    <li>At the location details, click "embed a map" then copy the HTML section to your website</li>
+                  </ul></li>
+              </ul>
+            <h3 id="addingyoutube">Adding Youtube video</h3>
+              <ul>
+                <li>Similar to adding google maps page, we can copy the embed HTML to our website</li>
+              </ul>
+            <h3 id="addingaudiovideo">Adding Audio and Video</h3>
+              <ol>
+                <li>Using hyperlink: 
+                  <ul>
+                    <li>This is the most basic method to provide available online content to your website using (a) tag</li>
+                    <li>Be mindful of copyright issue</li>
+                  </ul></li>
+                <li>Using (audio) tag
+                  <ul>
+                    <li>It's recommend to post different format of audio</li>
+                    <li>Attributes
+                      <ul>
+                        <li>loop: to repeat</li>
+                        <li>controls: add control</li>
+                        <li>autoplay: play the audio when website is opened</li>
+                        <li>NOTE: these attributes are also called Boolean attributes, they are understand as "true" value</li>
+                      </ul></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio">Click here</a> for more information on syntax of the (audio) tag</li>
+                  </ul></li>
+                <li>Using (video) tag
+                  <ul>
+                    <li>The same concept as with (audio) tag</li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video">Click here</a> for more information on the syntax of (video) tag</li>
+                  </ul></li>   
+              </ol>
+        </section>
+        <section>
+          <h2 id="sectioningandstructural">Sectioning and structural elements</h2>
+          <h3 id="generals">Generals</h3>
+            <ul>
+              <li>Dividing webpage into sections</li>
+              <li>Easy to structure and style</li>
+              <li>More semantic meanings</li>
+            </ul>
+          <h3 id="mainandarticle">Main and Article tags</h3>
+            <ul>
+              <li>Give more meaning to the structure of the contents</li>
+              <li>H1 of MAIN tag will be diferentiated with H1 of the ARTICAL tag in terms of meaning and styling. H1 of MAIN tag will be larger in styling</li>
+            </ul>
+          <h3 id="sectionelementlayout">Section elements and layout</h3>
+            <ul>
+              <li>Header tag</li> 
+              <li>Footer tag</li>
+              <li>Nav tag</li>
+              <li>Article tag</li>       
+              <li>Aside tag</li>            
+              <li>Div tag</li>
+            </ul>
+          <h3 id="idandclass">ID and CLASS attribute</h3>
+            <ol>
+              <li>ID attribute
+                <ul>
+                  <li>Identify HTML elemnents</li>
+                  <li>Used by CSS and JS (#id)</li>
+                  <li>Case sensitive</li>
+                </ul></li>
+              <li>Class attribute
+                <ul>
+                  <li>Identify HTML elements</li>
+                  <li>Used by CSS and JS (.id)</li>
+                </ul></li>
+            </ol>
+          <h3 id="divelement">DIV element</h3>
+            <ul>
+              <li>Group HTML elemnents</li>
+              <li>ID and CLASS can be assigned to DIV</li>
+            </ul>
+          <h3 id="mainelement">MAIN elemenet</h3>
+            <ul>
+              <li>Indicate the main contents of the webpage</li>
+              <li>Content should be unique</li>
+              <li>Should not appear elsewhere</li>
+              <li>Restriction:
+                <ul>
+                  <li>Only one manin section</li>
+                  <li>No repeated contents</li>
+                  <li>No logos and search box</li>
+                  <li>Not descendant of any other HTML elements</li>
+                </ul></li>
+            </ul>
+          <h3 id="sectionandarticle">SECTION and ARTICLE element</h3>
+            <ol>
+              <li>SECTION
+                <ul>
+                  <li><strong>Generic</strong> sections of a page</li>
+                  <li>Grouping related contents</li>
+                  <li>Identified by HEADING tag</li>
+                  <li>When subsections are nested, it also changes the appearance of H1 tag to appear smaller</li>
+                </ul></li>
+              <li>ARTICLE
+                <ul>
+                  <li><strong>Independent</strong>contents</li>
+                  <li><strong>Independently</strong> distributable and reusable</li>
+                  <li>For articles inside a section, it is better to use the next class of heading, since the nesting effect does not exist in this case. </li>
+                </ul></li>
+            </ol>
+          <h3 id="headerandfooter">HEADER and FOOTER elements</h3>
+            <ol>
+              <li>HEADER
+                <ul>
+                  <li>Introductory contents</li>
+                  <li>Naviational links</li>
+                  <li>Heading H1-H6</li>
+                  <li>Company logo or icon</li>
+                  <li>Company info</li>
+                </ul></li>
+              <li>FOOTER
+                <ul>
+                  <li>Webpage/Section footer</li>
+                  <li>Info about Webpage/Section</li>
+                  <li>copyright info</li>
+                  <li>LInks to related webpages</li>
+                  <li>Back to top link</li>
+                </ul></li>
+            </ol>
+          <h3 id="aside">ASIDE element</h3>
+            <ul>
+              <li>Section connected tangentially to the rest of webpage</li>
+              <li>Represnted as sidebars</li>
+              <li>Used for definition</li>
+              <li><Strong>Note</Strong>
+                <ul>
+                  <li>Styling of ASIDE element usually goes with styling property FLOAT</li>
+                  <li>Styling property (clear:both) is used to end the (float) effect of previous sections</li>
+                </ul></li>
+            </ul>
+        </section>  
+    </article>    
+    <hr size="3" noshade>
+    <article>
+      <h1 id="cssnote">CSS Note</h1>
+        <section>
+          <h2>Default CSS styling issue</h2>
+          <ul>
+            <li>There are always some defautl browser's styling applied to specific HTML elements. Becaus of that, even when some styling CSS code are in place, the effect of those CSS might not come out as expected</li>
+            <li><a href="https://www.w3schools.com/cssref/css_default_values.asp">W3Schools Defualt CSS values</a></li>
+            <li><strong><em>Example</em></strong>
+              <ul>
+                <li>The (hr) tags has the following default css
+                <ul type="none">
+                  <li>display: block;</li>
+                  <li>margin-top: 0.5em;</li> 
+                  <li>margin-bottom: 0.5em;</li>  
+                  <li>margin-left: auto;</li>  
+                  <li>margin-right: auto;</li>  
+                  <li>border-style: inset;</li>  
+                  <li>border-width: 1px;</li>  
+                </ul></li>
+                <li>If you input some CSS code that shows no effect, it is probably because of the (border-style) or you will need to define some (height)</li>
+              </ul></li>
+          </ul>
+        </section>
+        <section>
+          <h2>CSS syntax</h2>
+          <ul>
+            <li>selector {property: value;}</li>
+            <li>selector : "who"</li>
+            <li>property: "what"</li>
+            <li>value: "how"</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Class vs ID</h2>
+          <h3>Class</h3>
+            <ul>
+              <li>To group many related elements</li>
+              <li>There can be more than one class  for a element</li>
+              <li>To address a class in CSS. use .CLASS</li>
+              <li>CLASS has Pseudo class that can be address by "html element:pseudo class", one of the most commonly seen is :hover</li>
+            </ul>
+          <h3>IDs</h3>
+            <ul>
+              <li>To select a unique lelements</li>
+              <li>To address an ID. use "#ID"</li>
+            </ul>
+        </section>
+        <section>
+          <h2>Link style</h2>
+            <ol>
+              <li>4 states
+                <ol>
+                  <li>a:link - A normal, unvisited link</li>
+                  <li>a:visite - A link user has visited</li>
+                  <li>a:hover - a link when user moves mouse over it</li>
+                  <li>a:active - a link the moment it's clicked</li>
+                </ol>
+              </li>
+              <li>It is important to list the link styles in this order</li>
+            </ol>
+        </section>
+        <section>
+          <h2>List styling</h2>
+          <ul>
+            <li>list-style-type:
+              <ul>
+                <li>circle</li>
+                <li>square</li>
+                <li>upper-roman</li>
+                <li>lower-alpha</li>
+                <li>url</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>CSS box model</h2>
+            <ul>
+              <li>Box wrapping each HTML elemenet</li>
+              <li>It includes the content, border, margin, and padding</li>
+              <li>It should be considered during the webpage design & layout</li>
+              <li>Setting width and height for HTML element means setting them for the content area only</li>
+              <li>Total width = width + left padding + right padding + left border + right border + left margin + right margin </li>
+            </ul>
+        </section>
+        <section>
+          <h2>Page Layout</h2>
+            <ol>
+              <li>Float
+                <ul>
+                  <li>2 columns with Header and Footer</li>
+                  <li>Use float: left/right </li>
+                  <li>Next element should be styled as clear:both</li> 
+                </ul>
+              </li>
+              <li>More complex
+                <ol>
+                  <li>Generals
+                    <ul>
+                      <li>Page layout defines the structure of the page and its content </li>
+                      <li>Well and clear structure of the page help the user to easily navigate the page content </li>
+                      <li>A good layout enables visitors to easily, intuitively, and quickly access and find the important information and get them engaged. </li>
+                      <li>More about page layouts and most Popular ones 
+                        <ul>
+                          <li><a href="https://colibriwp.com/blog/website-layout-design-ideas/">https://colibriwp.com/blog/website-layout-design-ideas/</a></li> 
+                        </ul></li>
+                      <li>Creating CSS Website Layout 
+                        <ul>
+                          <li><a href="https://www.w3schools.com/css/css_website_layout.asp">https://www.w3schools.com/css/css_website_layout.asp</a></li>
+                        </ul>
+                      </li>
+                      <li>External references
+                        <ul>
+                          <li>FLOAT: <a href="https://www.w3schools.com/css/css_float.asp">CSS Layout - float and clear (w3schools.com)  </a></li>
+                          <li>Grid: <a href="https://www.w3schools.com/css/css_grid.asp">CSS Grid Layout (w3schools.com)  </a></li>
+                          <li>Flexbox: <a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flexbox (Flexible Box) (w3schools.com) </a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ol>
+              </li>
+            </ol>
+        </section>
+        <section>
+          <h2>GRID</h2>
+            <ol>
+              <li>The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.</li>
+              <li>Property:
+                <ul>
+                  <li>gap: A shorthand property for the row-gap and the column-gap properties</li>
+                  <li>grid: A shorthand property for the grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and the grid-auto-flow properties</li>
+                  <li>grid-areas: Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties (Use with grid-template-area to map the grid layout)</li>
+                  <li>grid-template-areas: Specifies how to display columns and rows, using named grid items</li>
+                </ul>
+              </li>
+            </ol>
+        </section>
+        <section>
+          <h2>Flexbox</h2>
+            <ol>
+              <li>flexbox is a flexible box layout which provides an easy and clean way to organize items within a container </li>
+              <li>It is suitable for small scale layout 
+                <ul>
+                  <li>No float property</li>
+                  <li>Responsive and mobile friendly</li>
+                  <li>Easy positioning of flex items</li>
+                  <li>Easily changing the order of flex items without changing the html code </li>
+                  <li>Easily changing item width/height to best fit the available free space in its container </li>
+                </ul>
+              </li>
+              <li>Property:
+                <ul>
+                  <li>Order: It specifies the order of the flex items </li>
+                  <li>flex-basis: Specifies the initial length of a flex item </li>
+                  <li>flex-grow: Specifies how much a flex item will grow relative to the rest of the flex items inside the same container </li>
+                  <li>flex-shrink: Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container </li>
+                  <li>flex: A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties </li>
+                  <li>align-self: Specifies the alignment for a flex item (overrides the flex container's align-items property) </li>
+                </ul>
+              </li>
+            </ol>
+        </section>
+        <section>
+          <h2>Debugging</h2>
+            <h3>Workflow</h3>
+              <ol>
+                <li>Identify the problem</li>
+                <li>List the possible causes</li>
+                <li>Diagnose to identify the root causes</li>
+                <li>Repair the damage</li>
+              </ol>
+        </section>
+    </article>
+    <hr size="3" noshade>
+    <article>
+      <h1>Javascript Note</h1>
+        <section>
+          <h2>Javascript Premitive (Value) type</h2>
+          <ol>
+              <li>Number
+                  <ul>
+                      <li>Interger: is a numerical value composed of digits that makes a whole number (Can be positive or negative) and does not have any fractional or decimal value.</li>
+                      <li>Number: sometimes called a floating point number, is a numeric value, positive or negative, that contains a fractional portion after the decimal point.</li>
+                      <li><strong>NOTE:</strong>In JS, there is only NUMBER value type that including also interger</li>
+                  </ul></li>
+                  <br>
+              <li>String
+                  <ul>
+                      <li>
+                      A string is a set of alphanumeric characters, digitsm symbols and special characters represented together
+                      </li>
+                  </ul></li>
+                  <br>
+              <li>Boolean
+                  <ul>
+                      <li>True</li>
+                      <li>False</li>
+                      <li>Undefined</li>
+                  </ul></li>
+                  <br>
+              <li>Undefined: an empty variable</li><br>
+              <li>Null: is used when we want to clear the value of a variable</li>
+          </ol>
+        </section>
+        <section>
+          <h2>Some Definition</h2>
+          <ul>
+              <li><strong>Alogrithms</strong> A step-by-step procedure for solving a problem or accomplishing some end</li>
+              <li><strong>Condistional</strong> is a statement that can make a choice based on some pre-planned criteria</li>
+              <li><strong>Javascript Premitive (Value) type</strong> includes Number, String, Boolean, Undefined, Null</li>
+              <li><strong>Javascript Reference type</strong> includes OBJECT, ARRAY, FUNCTION</li>
+          </ul>
+        </section>
+        <section>
+          <h2>JavaScript and Event</h2>
+          <ul>
+            <li>Events: Actions taken by the web page visitors
+              <ul>
+                <li>Clicking</li>
+                <li>Placing the mouse on an element (mouseover)</li>
+                <li>Unloading the page (onunload)</li>
+                <li>Loading the page (onload)</li>
+                <li>Removing the mouse from an element(onmouseout)</li>
+              </ul>
+            </li>
+          </ul>
+          <table style="border-color:black; border-width: 1px; border-style: solid; margin-left: 4em;">
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Event Handler</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>click</td>
+                <td>onclick</td>
+              </tr>
+              <tr>
+                <td>load</td>
+                <td>onload</td>
+              </tr>
+              <tr>
+                <td>mouseover</td>
+                <td>onmouseover</td>
+              </tr>
+              <tr>
+                <td>mouse out</td>
+                <td>onmouseout</td>
+              </tr>
+              <tr>
+                <td>submit</td>
+                <td>onsubmit</td>
+              </tr>
+              <tr>
+                <td>unload</td>
+                <td>onunload</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h2>Methods</h2>
+          <ul>
+            <li>innerHTMLproperty: 
+              <ul>
+                <li>Writing to HTML DOM element</li>
+                <li><a href="https://www.w3schools.com/jsref/prop_html_innerhtml.asp  ">Click here for more info</a></li>
+              </ul>
+            </li>
+            </li>document.write()
+              <ul>
+                <li>writing into HTMLDOM document</li>
+                <li><a href="https://www.w3schools.com/jsref/met_doc_write.asp  ">Click here for more info</a></li>
+              </ul>
+            <li>
+            <li>document.alert()
+              <ul>
+                <li>Writing into alert box</li>
+                <li><a href="https://www.w3schools.com/jsref/met_win_alert.asp  ">Click here for more info</a></li>
+              </ul>
+            </li>
+            <li>console.log()
+              <ul>
+                <li>Writing into browser console</li>
+                <li><a href="https://www.w3schools.com/jsref/met_console_log.asp ">Click here for more info</a></li>
+              </ul>
+            </li>
+            <li>prompt()
+              <ul>
+                <li>Displays a message and accepts a value from the user</li>
+                <li>THe value typed by the user is stored in a varable i.e. myName</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Variables</h2>
+          <ol>
+              <li>Variables: A variable is a programmer defined label of a computer memory location.
+                  <ul>
+                      <li>WE commonly use camelCase to write our variable names</li>
+                      <li>The values inside a variable can always be changed, that's why JS is called a dynamic language</li>
+                      <li>Variable's names can not be a reserved keyword</li>
+                      <li>Should be meaningful</li>
+                      <li>Cannot start with a number</li>
+                      <li>Cannot contain a space or hyphen</li>
+                  </ul>
+              </li>
+              <br>
+              <li>Array: is another data type that allows you to store a simple collection of values inside of a single variable
+                  <ul>
+                      <li>Arrays are defined by square brackets [kinda looks like a books self]</li>
+                      <li>Arrays use zere-based indexing, first value is indexed Zero</li>
+                      <li><strong><em> Example:</em></strong> console.log("The first name is: ", staffNames[0])</li>
+                  </ul></li>
+                  <br>
+              <li>Object: is another data type that allows you to store a complex collection of key-value pairs inside of a single variable.
+                  <ul>
+                      <li> Objects are defined by curly brackets { }</li>
+                      <li><strong><em>Example:</em></strong> <br>
+                          let myObject = { <br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;id: 391, <br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: "Bob", <br>
+                          } <br>
+                          console.log("The name is: ", myObject.name)
+                          </li>
+                      <li>An <strong>array</strong> can contain <strong>objects</strong> and vice-versa</li>
+                      <li><Strong><em>Example:</em></Strong><br>
+                          let students = [ <br>
+                                  { id:234, <br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: "Albert", <br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;course: ["Biology","Math","English"] <br>
+                                  }, <br>
+                                  { id:236, <br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: "Sara", <br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;course: ["English", "Art"], <br>
+                                  }, <br></li>
+                              ] <br>
+                          console.log("The secon student in the list is: ",students[1].name)
+                      <li><strong>NOTE:</strong>
+                          <ul>Dotnotation: (student.name) is used more because it shorter</ul>
+                          <ul>Bracketnotation: (student['name']) is used incase the selection is dynamic <br>
+                              example:let selection = 'name'<br>
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;student[selection] = Mary</ul>
+                      </li>
+                  </ul></li>
+          </ol>
+        </section>
+        <section>
+          <h2>Conditionals</h2>
+          <ol>
+              <li>Switch: Multiple if...else statements</li> 
+              <br>
+              <li>Ternary: Single if...else statement
+                  <ul>
+                      <li><strong><em>Example:</em></strong><br>
+                          let canDrive = age > 16? 'yes' : 'no'
+                      </li></li>
+                  </ul><br>
+              <li>Loops: to perform a task more than once without writing duplicate code</li><br>
+              <li>while: to do a loop <em>while</em> a certain condition is true, or <em>until</em> a certain condition is no longer true</li>
+          </ol>
+        </section>
+        
+        <section>
+          <h2>Functions</h2>
+          <ol>
+              <li>var a = function name(){} (This can be anonymous function without name)</li>
+              <li>function name(){}</li>
+              <li></li>
+          </ol>
+          <ul>
+              <li>In JS and many other programming languages, <strong>FUNCTIONS</strong> encapsulate work into focues chunks of code that accomplish a task, and then return a value</li>
+              <li>In some languages, a FUNCTION that does not return a value is called PROCEDURE, but they all do tasks inside</li>
+              <li>A FUNCTION has PARAMETER and ARGUEMENT. A PARAMETER is a variable inside a function, and the value given to that variable or so called parameter is call an ARGUEMENT</li>
+              <li><strong>Example</strong><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;funtion greet(name) { <br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log('Hello ' + name) <br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br>
+
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;greet ('Mary'); <br>
+                  * in this example, name is a parameter (variable) that can only access within this function and Mary is an arguement <br>
+
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;function square(number){return number * number <br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;} <br>
+                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;console.log(square(2));
+              </li>
+          </ul>
+        </section>
+        <section>
+          <h2>Arithmetic expression and operators</h2>
+          <section>
+            <h3>Arithmetic expression</h3>
+              <ul>
+                <li>= :assigment</li>
+                <li>+ :addition/concatenation</li>
+                <li>- :subtraction</li>
+                <li>* :multiplication</li>
+                <li>/ :division</li>
+                <li>% :modulus(remainder) i.e.:11/2 result in 1</li>
+                <li>- :negation i.e. -10</li>
+                <li>--/++ : decrement/increment</li>
+              </ul>
+          </section>
+          <section>
+            <h3>Operators</h3>
+              <ul>
+                <li>= :assignment or equivalent to</li>
+                <li>+= : X += Y means X = X + Y</li>
+                <li>-= : X -= Y means X = X - Y</li>
+                <li>*= : X *= Y means X = X * Y</li>
+                <li>/= : X /= Y means X = X / Y</li>
+                <li>%= : X %= Y means X= X % Y</li>
+              </ul>
+          </section>
+          <section>
+            <h3>Comparison operators</h3>
+              <ul>
+                <li>== : equals to</li>
+                <li>>  : greater than</li>
+                <li>>= : greater than or equal to</li>
+                <li>&lt  : less than</li>
+                <li>&lt= : less than or equal to</li>
+                <li>!= : not equal to</li>
+              </ul>
+          </section>
+          <section>
+            <h3>Converter</h3>
+              <ul>
+                <li>parsInt(): convert string to interger</li> 
+                <li>parsFloat(): convert string to float</li>
+              </ul>
+          </section>
+          <section>
+            <h3>Logical operators</h3>
+            <ul>
+              <li>&&: means "AND"</li>
+              <li>||: means "OR"</li>
+              <li>! : means "NOT"</li>
+          </ul>
+          </section>
+        </section>
+        <section>
+          <h2>Conditional making statement</h2>
+          <ol>
+            <li>if:
+              <ul>
+                <li>if (condition) {execute}</li>
+                <li>else if (condition) {execute}</li>
+                <li>else {execute}</li>
+                <li>example:
+                  <ul class="example">
+                    <li><pre>
+          if (a > 0) {
+            result = 'positive';
+          } else {
+            result = 'NOT positive';
+          }
+                    </pre></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>switch-case:
+              <ul>
+                <li>The switch statement is used to perform different actions based on different conditions.</li>
+                <li>The switch expression is evaluated once.</li>
+                <li>The value of the expression is compared with the values of each case.</li>
+                <li>If there is a match, the associated block of code is executed.</li>
+                <li>If there is no match, the default code block is executed.</li>
+                <li>example:
+                  <ul class="example">
+                    <li><pre>
+          const expr = 'Papayas';
+          switch (expr) {
+            case 'Oranges':
+              console.log('Oranges are $0.59 a pound.');
+              break;
+            case 'Mangoes':
+            case 'Papayas':
+              console.log('Mangoes and papayas are $2.79 a pound.');
+              // expected output: "Mangoes and papayas are $2.79 a pound."
+              break;
+            default:
+              console.log(`Sorry, we are out of ${expr}.`);
+          }
+                    </pre></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li>Ternary operator:
+              <ul>
+                <li>The conditional (ternary) operator is the only JavaScript operator that takes three operands:</li>
+                <li>A condition followed by a question mark (?)</li>
+                <li>then an expression to execute if the condition is truthy followed by a colon (:)</li> 
+                <li>and finally the expression to execute if the condition is falsy.</li> 
+                <li>This operator is frequently used as an alternative to an if...else statement.</li> 
+                <li>example:
+                  <ul class="example">
+                    <li><pre>
+          function getFee(isMember) {
+            return (isMember ? '$2.00' : '$10.00');
+          }
+          
+          console.log(getFee(true));
+          // expected output: "$2.00"
+          
+          console.log(getFee(false));
+          // expected output: "$10.00"
+          
+          console.log(getFee(null));
+          // expected output: "$10.00"
+                    </pre></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h2>Loop statements</h2>
+          <ol>
+            <li>For
+              <ul>
+                <li>Loops are handy, if you want to run the same code over and over again, each time with a different value.</li>
+                <li>example:
+                  <ul class="example">
+                    <li><pre>
+          let str = '';
+
+          for (let i = 0; i < 9; i++) {
+            str = str + i;
+          }
+
+          console.log(str);
+          // expected output: "012345678"
+                    </pre></li>
+                  </ul>
+                </li>
+                <li>Often this is the case when working with arrays</li>
+                <li>for - loops through a block of code a number of times</li>
+                <li>for/in - loops through the properties of an object</li>
+                <li>for/of - loops through the values of an iterable object</li>
+              </ul>
+            </li>
+            <li>while
+              <ul>
+                <li>The while statement creates a loop that executes a specified statement as long as the test condition evaluates to true.</li>
+                <li>The condition is evaluated before executing the statement.</li>
+                <li>exmaple:
+                  <ul class="example"><pre>
+          let n = 0;
+
+          while (n < 3) {
+            n++;
+          }
+
+          console.log(n);
+          // expected output: 3
+                  </pre></ul>
+                </li>
+              </ul>
+            </li>
+            <li>do-while
+              <ul>
+                <li>The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false</li>
+                <li>The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.</li>
+                <li>example:
+                  <ul class="example"><pre>
+          let result = '';
+          let i = 0;
+
+          do {
+            i = i + 1;
+            result = result + i;
+          } while (i &lt 5);
+
+          console.log(result);
+          // expected result: "12345"
+                  </pre></ul>
+                </li>
+              </ul>
+            </li>
+          </ol>
+        </section>
+        <section>
+          <h2>Using JavaScript</h2>
+        </section>
+    </article>
+  </main>
+  <script src="javanote.js"></script>
+</body>
+</html>
